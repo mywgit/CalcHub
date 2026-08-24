@@ -37,6 +37,14 @@ export function Header() {
           <Link href="/saas-mrr-calculator" className="text-slate-300 hover:text-white transition-colors hidden md:block">
             {t("saasNav")}
           </Link>
+          <a
+            href="https://tool.lehuoliaoyu.com"
+            target="_blank"
+            rel="noopener"
+            className="text-slate-400 hover:text-blue-400 transition-colors hidden lg:block text-xs"
+          >
+            {t("devToolsNav")}
+          </a>
           <Link
             href="/percentage-calculator"
             className="px-3 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white shadow-md shadow-blue-600/30 transition-all hidden sm:block"

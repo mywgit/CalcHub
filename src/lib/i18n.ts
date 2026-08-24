@@ -46,6 +46,7 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     tiktokNav: "TikTok Money",
     youtubeNav: "YouTube Revenue",
     saasNav: "SaaS MRR",
+    devToolsNav: "Dev Tools ↗",
 
     // Stripe Calculator
     presetGateway: "Preset Gateway:",
@@ -181,6 +182,7 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     tiktokNav: "TikTok分成",
     youtubeNav: "YouTube收益",
     saasNav: "SaaS增长",
+    devToolsNav: "开发者工具箱 ↗",
 
     // Stripe Calculator
     presetGateway: "快速预设网关：",
@@ -315,6 +317,7 @@ export const TRANSLATIONS: Record<Language, Record<string, string>> = {
     tiktokNav: "TikTok",
     youtubeNav: "YouTube",
     saasNav: "SaaS",
+    devToolsNav: "Herramientas Dev ↗",
 
     // Stripe
     presetGateway: "Pasarela Predeterminada:",
