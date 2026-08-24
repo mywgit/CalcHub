@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Calculator, ShieldCheck, Coffee } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { CALCULATORS, getLocalizedCalculator } from "@/lib/calculatorsData";
+import { BrandLogo } from "@/components/BrandLogo";
 
 export function Footer() {
   const { t, lang } = useLanguage();
@@ -18,9 +19,9 @@ export function Footer() {
     <footer className="mt-20 border-t border-slate-800 bg-slate-950/80 py-12 text-slate-400 text-xs">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="space-y-4 md:col-span-1">
-          <div className="flex items-center gap-2 text-white font-bold text-base">
-            <Calculator className="w-5 h-5 text-blue-500" /> CalcHub
-          </div>
+          <Link href="/" className="inline-block">
+            <BrandLogo size="sm" showTagline={false} />
+          </Link>
           <p className="text-slate-400 max-w-sm leading-relaxed">
             {t("footerDesc")}
           </p>
