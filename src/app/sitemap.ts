@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { CALCULATORS } from "@/lib/calculatorsData";
+import { ALTERNATIVE_PAGES } from "@/lib/alternativeData";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://calc.puretoolhub.com";
@@ -11,6 +12,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
+  const altEntries = ALTERNATIVE_PAGES.map((page) => ({
+    url: `${baseUrl}${page.path}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.85,
+  }));
+
   return [
     {
       url: baseUrl,
@@ -19,5 +27,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     ...calcEntries,
+    ...altEntries,
   ];
 }

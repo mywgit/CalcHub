@@ -8,6 +8,7 @@ import { CALCULATORS, getLocalizedCalculator } from "@/lib/calculatorsData";
 
 export function Footer() {
   const { t, lang } = useLanguage();
+  const isZh = lang === "zh";
   const coffeeUrl = process.env.NEXT_PUBLIC_BUY_ME_A_COFFEE_URL || "https://buy.stripe.com/28EaEYg7f6T83sIcRQ0Ny00";
 
   const creatorCalcs = CALCULATORS.filter((c) => c.categorySlug === "creator").map((c) => getLocalizedCalculator(c, lang));
@@ -16,7 +17,7 @@ export function Footer() {
   return (
     <footer className="mt-20 border-t border-slate-800 bg-slate-950/80 py-12 text-slate-400 text-xs">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
-        <div className="space-y-4 md:col-span-2">
+        <div className="space-y-4 md:col-span-1">
           <div className="flex items-center gap-2 text-white font-bold text-base">
             <Calculator className="w-5 h-5 text-blue-500" /> CalcHub
           </div>
@@ -64,6 +65,30 @@ export function Footer() {
                 </Link>
               </li>
             ))}
+          </ul>
+        </div>
+
+        {/* Competitor Alternatives & Reverse Invoicing */}
+        <div className="space-y-2">
+          <span className="font-bold text-white uppercase tracking-wider block">
+            {isZh ? "竞品对比与高阶工具" : "Comparisons & Specialized"}
+          </span>
+          <ul className="space-y-1.5">
+            <li>
+              <Link href="/calculator-net-alternative" className="hover:text-blue-400 transition-colors">
+                {isZh ? "Calculator.net 最佳替代" : "Calculator.net Alternative"}
+              </Link>
+            </li>
+            <li>
+              <Link href="/omni-calculator-alternative" className="hover:text-blue-400 transition-colors">
+                {isZh ? "Omni Calculator 极速替代" : "Omni Calculator Alternative"}
+              </Link>
+            </li>
+            <li>
+              <Link href="/stripe-fee-calculator-reverse-invoice" className="hover:text-blue-400 transition-colors">
+                {isZh ? "Stripe 反向开票倒推计算器" : "Stripe Reverse Fee Calculator"}
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
