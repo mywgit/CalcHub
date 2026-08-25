@@ -4,7 +4,7 @@ import React from "react";
 import Script from "next/script";
 
 export function Analytics() {
-  const gaId = process.env.NEXT_PUBLIC_GA_ID || "G-B4BZEQLL94";
+  const gaId = process.env.NEXT_PUBLIC_GA_ID || "G-MDZF9NPHZG";
   const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID || "xynh4izdcj";
 
   return (
