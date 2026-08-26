@@ -106,10 +106,10 @@ export const CALCULATORS: CalculatorItem[] = [
     categorySlug: "business",
     shortDesc: "Calculate exact Stripe, PayPal, and credit card processing fees for domestic and international sales.",
     primaryKeyword: "Stripe Fee Calculator",
-    secondaryKeywords: ["paypal fee calculator", "credit card processing fee", "stripe fee calculator 2026"],
-    metaTitle: "Stripe Fee Calculator 2026 - Calculate Domestic & Global Fees",
-    metaDescription: "Free online Stripe & PayPal fee calculator. Calculate exact transaction fees, net payout, and how much to invoice to receive your target amount.",
-    h1: "Stripe & Payment Processing Fee Calculator",
+    secondaryKeywords: ["paypal fee calculator", "credit card processing fee", "stripe fee calculator 2026", "stripe invoice fee"],
+    metaTitle: "Stripe Fee Calculator (2026 Updated) - Exact Net Payout & Domestic/Intl Solver",
+    metaDescription: "Free online Stripe & payment fee calculator (2026). Calculate exact credit card transaction fees, net payout, and reverse invoice amounts.",
+    h1: "Stripe & Payment Processing Fee Calculator (2026)",
     iconName: "CreditCard",
     badge: "Updated for 2026",
     howToSteps: [
@@ -246,10 +246,10 @@ export const CALCULATORS: CalculatorItem[] = [
     categorySlug: "creator",
     shortDesc: "Estimate your earnings from the TikTok Creator Rewards Program based on qualified views and RPM.",
     primaryKeyword: "TikTok Money Calculator",
-    secondaryKeywords: ["tiktok creator rewards calculator", "tiktok rpm calculator", "how much tiktok pays"],
-    metaTitle: "TikTok Money Calculator - Estimate Creator Rewards Earnings",
-    metaDescription: "Calculate your estimated TikTok Creator Rewards Program earnings based on qualified views and estimated RPM ($0.40 - $1.20+).",
-    h1: "TikTok Creator Rewards Earnings Calculator",
+    secondaryKeywords: ["tiktok creator rewards calculator", "tiktok rpm calculator", "how much tiktok pays", "tiktok money calculator 2026"],
+    metaTitle: "TikTok Money Calculator 2026 - Instant Creator Rewards Earnings Estimator",
+    metaDescription: "Free 2026 TikTok Creator Rewards Program earnings calculator. Calculate payouts based on qualified views, duration, and RPM ($0.40 - $1.35+).",
+    h1: "TikTok Creator Rewards Earnings Calculator (2026)",
     iconName: "Video",
     badge: "Creator Rewards",
     howToSteps: [
@@ -346,10 +346,10 @@ export const CALCULATORS: CalculatorItem[] = [
     categorySlug: "creator",
     shortDesc: "Estimate YouTube AdSense revenue for Long-form Videos and Shorts by views, niche, and audience geography.",
     primaryKeyword: "YouTube Money Calculator",
-    secondaryKeywords: ["youtube shorts revenue calculator", "youtube earnings calculator", "youtube cpm calculator"],
-    metaTitle: "YouTube Money Calculator - Long-Form & Shorts Earnings",
-    metaDescription: "Estimate your YouTube earnings for long-form videos and YouTube Shorts. Model RPM, views, audience geography, and monthly revenue.",
-    h1: "YouTube Video & Shorts Earnings Calculator",
+    secondaryKeywords: ["youtube shorts revenue calculator", "youtube earnings calculator", "youtube cpm calculator", "youtube money calculator 2026"],
+    metaTitle: "YouTube Money Calculator 2026 - Long-Form & Shorts AdSense Revenue Estimator",
+    metaDescription: "Free online 2026 YouTube money calculator. Accurately model RPM, daily views, niche AdSense rates, and YouTube Shorts payouts.",
+    h1: "YouTube Video & Shorts Revenue Calculator (2026)",
     iconName: "PlayCircle",
     badge: "Long-form & Shorts",
     howToSteps: [
@@ -438,10 +438,10 @@ export const CALCULATORS: CalculatorItem[] = [
     categorySlug: "saas",
     shortDesc: "Simulate your subscription SaaS growth, churn rate impact, customer lifetime value (LTV), and 12-month ARR.",
     primaryKeyword: "SaaS MRR Calculator",
-    secondaryKeywords: ["saas churn calculator", "saas ltv calculator", "saas growth simulator"],
-    metaTitle: "SaaS MRR, Churn & LTV Calculator - 12-Month Growth Simulator",
-    metaDescription: "Model your subscription SaaS business. Calculate Monthly Recurring Revenue (MRR), Churn, Customer Lifetime Value (LTV), and 12-month projections.",
-    h1: "SaaS Growth, MRR & Churn Calculator",
+    secondaryKeywords: ["saas churn calculator", "saas ltv calculator", "saas growth simulator", "saas mrr calculator 2026"],
+    metaTitle: "SaaS MRR & Churn Calculator 2026 - 12-Month ARR Growth Simulator",
+    metaDescription: "Free online 2026 SaaS financial modeling tool. Simulate Monthly Recurring Revenue (MRR), Churn rate impact, Customer Lifetime Value (LTV), and ARR.",
+    h1: "SaaS MRR, Churn & LTV Growth Calculator (2026)",
     iconName: "TrendingUp",
     badge: "B2B & Micro-SaaS",
     howToSteps: [
@@ -530,10 +530,10 @@ export const CALCULATORS: CalculatorItem[] = [
     categorySlug: "business",
     shortDesc: "Calculate true e-commerce net profit margins factoring in product COGS, ad spend (ROAS), shipping, and payment fees.",
     primaryKeyword: "Shopify Profit Margin Calculator",
-    secondaryKeywords: ["ecommerce profit calculator", "roas profit calculator", "dropshipping margin calculator"],
-    metaTitle: "Shopify Profit Margin & ROAS Calculator - True Net Profit",
-    metaDescription: "Calculate your true e-commerce and Shopify profit margins. Factor in product costs, Facebook/TikTok ad spend, shipping, and payment gateway fees.",
-    h1: "E-Commerce & Shopify Net Profit Calculator",
+    secondaryKeywords: ["ecommerce profit calculator", "roas profit calculator", "dropshipping margin calculator", "shopify calculator 2026"],
+    metaTitle: "Shopify Profit Margin & ROAS Calculator 2026 - True Net Profit Solver",
+    metaDescription: "Free 2026 Shopify & e-commerce profit calculator. Deduct COGS, ad spend (ROAS/CPA), shipping, and gateway fees to see true net margins.",
+    h1: "Shopify & E-Commerce Profit Margin Calculator (2026)",
     iconName: "ShoppingBag",
     badge: "E-Commerce",
     howToSteps: [
@@ -793,6 +793,198 @@ export const CALCULATORS: CalculatorItem[] = [
           {
             question: "百分比增加（涨幅）是如何计算的？",
             answer: "计算公式为：涨幅百分比 = ((新数值 - 原数值) ÷ 原数值) × 100%。例如从 80 涨到 120，涨幅为 ((120-80)/80) × 100% = +50%。"
+          }
+        ]
+      },
+    },
+  },
+  {
+    id: "paypal-fee-calculator",
+    name: "PayPal Fee Calculator (2026)",
+    path: "/paypal-fee-calculator",
+    category: "E-Commerce & Stripe",
+    categorySlug: "business",
+    shortDesc: "Calculate exact PayPal merchant, friends & family, and international cross-border transaction fees.",
+    primaryKeyword: "PayPal Fee Calculator",
+    secondaryKeywords: ["paypal fee calculator 2026", "paypal seller fee calculator", "paypal fees invoice reverse"],
+    metaTitle: "PayPal Fee Calculator 2026 - Exact Domestic & International Seller Fees",
+    metaDescription: "Free online 2026 PayPal fee calculator. Calculate exact domestic (3.49% + $0.49), invoicing (2.99%), and international cross-border seller fees with reverse solver.",
+    h1: "PayPal Fee & Net Payout Calculator (2026)",
+    iconName: "CreditCard",
+    badge: "PayPal 2026",
+    howToSteps: [
+      "Enter the transaction amount you want to receive or charge.",
+      "Select your payment scenario: Standard Goods & Services (3.49% + $0.49), Invoicing (2.99%), or International (+1.50%).",
+      "View exact deductions, final balance, and the exact reverse amount to invoice to cover all fees."
+    ],
+    features: [
+      "Official 2026 PayPal US merchant rates (3.49% + $0.49) and invoicing rates (2.99% + $0.49).",
+      "Reverse fee calculation: Calculates the exact billable amount to net full value.",
+      "100% private in-browser computation with zero server logging."
+    ],
+    faqs: [
+      {
+        question: "What are the standard PayPal seller fees in 2026?",
+        answer: "For standard US transactions, PayPal charges 3.49% + $0.49 per transaction. For invoices and checkout, the rate is 2.99% + $0.49. International transactions carry an additional 1.50% fee."
+      },
+      {
+        question: "How do I avoid losing money to PayPal fees?",
+        answer: "Use the reverse calculation feature to invoice your client the gross amount, so that after PayPal deducts its percentage and fixed fee, you receive 100% of your target net."
+      }
+    ],
+    formulaDesc: "Fee = (Amount × Rate) + Fixed Fee | Net = Amount - Fee | Reverse = (Target + Fixed) / (1 - Rate)",
+    locales: {
+      en: {
+        name: "PayPal Fee Calculator",
+        shortDesc: "Calculate exact PayPal merchant, invoicing, and international cross-border transaction fees.",
+        badge: "PayPal 2026",
+        h1: "PayPal Fee & Net Payout Calculator",
+      },
+      es: {
+        name: "Calculadora de Comisiones PayPal",
+        shortDesc: "Calcula comisiones exactas de ventas PayPal nacionales e internacionales.",
+        badge: "PayPal 2026",
+        h1: "Calculadora de Comisiones de PayPal",
+      },
+      pt: {
+        name: "Calculadora de Taxas PayPal",
+        shortDesc: "Calcule taxas de vendas PayPal nacionais e internacionais e valor líquido.",
+        badge: "PayPal 2026",
+        h1: "Calculadora de Taxas do PayPal",
+      },
+      de: {
+        name: "PayPal Gebührenrechner",
+        shortDesc: "Berechnen Sie exakte PayPal-Verkäufergebühren und internationale Transaktionen.",
+        badge: "PayPal 2026",
+        h1: "PayPal Gebühren- & Auszahlungsrechner",
+      },
+      fr: {
+        name: "Calculateur de Frais PayPal",
+        shortDesc: "Calculez les frais de vente PayPal nationaux et internationaux exacts.",
+        badge: "PayPal 2026",
+        h1: "Calculateur de Frais PayPal Marchand",
+      },
+      ja: {
+        name: "PayPal 手数料計算ツール",
+        shortDesc: "PayPalの国内・海外取引手数料、請求書決済手数料、逆算受取額を正確に計算。",
+        badge: "PayPal 2026",
+        h1: "PayPal 決済手数料＆手取り額計算ツール",
+      },
+      zh: {
+        name: "PayPal 交易手续费计算器",
+        shortDesc: "精确计算 PayPal 标准商户收款 (3.49%+$0.49)、账单开票 (2.99%) 与跨境国际卡扣费及反向开票金额。",
+        badge: "PayPal 2026",
+        h1: "PayPal 卖家交易手续费与反向开票计算器",
+        howToSteps: [
+          "输入计划收取的交易总额（例如 $100.00 美元）。",
+          "选择预设模式：【标准买家付款 (3.49%+$0.49)】、【PayPal 账单 (2.99%+$0.49)】或勾选【跨境国际卡 (+1.5%)】。",
+          "实时查看扣除的 PayPal 手续费净额，以及确保实收到手不打折的【反向开票推荐金额】。"
+        ],
+        features: [
+          "适配 2026 PayPal 最新商户与个人收单阶梯费率规则。",
+          "独家反向开票公式：直接算出向买家收多少钱，扣完手续费刚好到手目标金额。",
+          "100% 浏览器纯本地计算，零延迟秒出结果，绝不保存任何商业敏感数字。"
+        ],
+        faqs: [
+          {
+            question: "PayPal 2026 年的标准商户费率是多少？",
+            answer: "美国本土标准商品与服务收款为 3.49% + $0.49 美元；在线结账/账单为 2.99% + $0.49 美元；跨境国际付款需额外加收 1.50% 跨境附加费。"
+          }
+        ]
+      },
+    },
+  },
+  {
+    id: "etsy-fee-calculator",
+    name: "Etsy Fee & Profit Calculator (2026)",
+    path: "/etsy-fee-calculator",
+    category: "E-Commerce & Stripe",
+    categorySlug: "business",
+    shortDesc: "Calculate exact Etsy seller fees, listing costs, payment processing, offsite ads, and true net profit margin.",
+    primaryKeyword: "Etsy Fee Calculator",
+    secondaryKeywords: ["etsy profit calculator", "etsy seller fees 2026", "etsy margin calculator", "etsy pricing tool"],
+    metaTitle: "Etsy Fee & Profit Calculator 2026 - Exact Listing & Transaction Margins",
+    metaDescription: "Free online 2026 Etsy fee and profit calculator. Factor in listing fees ($0.20), 6.5% transaction fee, 3%+$0.25 payment processing, and offsite ads.",
+    h1: "Etsy Fee & Net Profit Calculator (2026)",
+    iconName: "ShoppingBag",
+    badge: "Etsy 2026",
+    howToSteps: [
+      "Enter your item sale price and shipping fee charged to the buyer.",
+      "Input your item production/material cost (COGS) and actual postage packaging expenses.",
+      "Select your Etsy Offsite Ads status (0%, 12%, or 15%) to view your real net profit and margin %."
+    ],
+    features: [
+      "Fully compliant with latest 2026 Etsy official fee structure: $0.20 Listing + 6.5% Transaction + 3%+$0.25 Payment Processing.",
+      "Supports 12% and 15% Etsy Offsite Ads deduction modeling.",
+      "Instant visual profit margin % indicator and copyable calculation summary."
+    ],
+    faqs: [
+      {
+        question: "How much does Etsy take per sale in 2026?",
+        answer: "Etsy charges a $0.20 listing fee, a 6.5% transaction fee on total order value (item + shipping charged), and a 3% + $0.25 payment processing fee (in the US). In total, Etsy takes roughly 9.5% to 10% + $0.45 per sale without Offsite Ads."
+      },
+      {
+        question: "What is the Etsy Offsite Ads fee?",
+        answer: "If a sale is generated from Etsy's Google/Bing/social media advertising, Etsy charges an additional 15% (for shops making under $10k/yr) or 12% (mandatory for shops making over $10k/yr)."
+      }
+    ],
+    formulaDesc: "Profit = Revenue - (COGS + Postage + $0.20 Listing + 6.5% Trans + (3% + $0.25) Processing + Offsite Ads)",
+    locales: {
+      en: {
+        name: "Etsy Fee & Profit Calculator",
+        shortDesc: "Calculate exact Etsy seller fees, listing costs, payment processing, offsite ads, and true net profit margin.",
+        badge: "Etsy 2026",
+        h1: "Etsy Fee & Net Profit Calculator",
+      },
+      es: {
+        name: "Calculadora de Comisiones y Beneficio Etsy",
+        shortDesc: "Calcula comisiones exactas de Etsy, publicación, pasarela y margen neto real.",
+        badge: "Etsy 2026",
+        h1: "Calculadora de Comisiones y Beneficio de Etsy",
+      },
+      pt: {
+        name: "Calculadora de Taxas e Lucro Etsy",
+        shortDesc: "Calcule taxas do Etsy, anúncio, processamento de pagamento e lucro líquido real.",
+        badge: "Etsy 2026",
+        h1: "Calculadora de Taxas e Lucro para Etsy",
+      },
+      de: {
+        name: "Etsy Gebühren- & Reingewinn-Rechner",
+        shortDesc: "Berechnen Sie exakte Etsy-Verkäufergebühren, Einstellgebühren und Reingewinnspannen.",
+        badge: "Etsy 2026",
+        h1: "Etsy Gebühren- & Gewinnspannen-Rechner",
+      },
+      fr: {
+        name: "Calculateur de Frais et Bénéfice Etsy",
+        shortDesc: "Calculez les frais de vente Etsy exacts, frais de mise en vente et marge nette réelle.",
+        badge: "Etsy 2026",
+        h1: "Calculateur de Frais et Bénéfice Net Etsy",
+      },
+      ja: {
+        name: "Etsy 手数料＆純利益計算ツール",
+        shortDesc: "出品料（$0.20）、取引手数料（6.5%）、決済手数料（3%+$0.25）、外部広告費を差し引いたEtsyの真の純利益率を算出。",
+        badge: "Etsy 2026",
+        h1: "Etsy 販売手数料＆利益率計算ツール",
+      },
+      zh: {
+        name: "Etsy 卖家手续费与净利润率计算器",
+        shortDesc: "扣除刊登费 ($0.20)、交易费 (6.5%)、支付处理费 (3%+$0.25) 与站外广告分成，计算手作与独立电商真实净利润。",
+        badge: "Etsy 2026",
+        h1: "Etsy 卖家全项抽成与单件净利润率计算器",
+        howToSteps: [
+          "输入商品售价与向买家收取的运费金额（总订单金额）。",
+          "输入商品制作原材料成本 (COGS) 与打包发货的真实物流支出。",
+          "选择是否出单触发了 Etsy 站外广告 (Offsite Ads 15% 或 12%)，立即得出单笔真实净赚美金数与净利率。"
+        ],
+        features: [
+          "严格适配 2026 Etsy 官方标准：$0.20 刊登费 + 6.5% 订单交易费 + 3%+$0.25 支付处理费。",
+          "全网首家支持 Etsy 站外广告 (Offsite Ads 12%/15%) 阶梯抽成模拟。",
+          "一键复制标准化测算摘要，方便手作达人与跨境卖家快速定价核算。"
+        ],
+        faqs: [
+          {
+            question: "Etsy 2026 年每笔订单大约抽成多少？",
+            answer: "Etsy 基础抽成约为：每件刊登费 $0.20 + 订单总额 6.5% 交易费 + 3%+$0.25 支付手续费。在没有触发站外广告的情况下，综合扣费比例约为订单总额的 9.5% ~ 10% + $0.45 美元。"
           }
         ]
       },
