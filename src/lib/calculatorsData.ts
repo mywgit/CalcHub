@@ -989,6 +989,106 @@ export const CALCULATORS: CalculatorItem[] = [
         ]
       },
     },
+  },
+  {
+    id: "amazon-fba-calculator",
+    name: "Amazon FBA Calculator 2026",
+    path: "/amazon-fba-calculator",
+    category: "E-Commerce & Stripe",
+    categorySlug: "business",
+    shortDesc: "Calculate accurate Amazon FBA fulfillment fees, category referral rates, storage costs, ACoS, and net profit margins.",
+    primaryKeyword: "Amazon FBA Calculator",
+    secondaryKeywords: ["amazon fba fee calculator", "fba revenue calculator", "amazon seller calculator 2026", "amazon profit margin calculator"],
+    metaTitle: "Amazon FBA Calculator 2026 - Exact FBA Fees, Storage & Net Profit Solver",
+    metaDescription: "Free online Amazon FBA Calculator (2026). Calculate exact FBA fulfillment fees, category referral fees (8-15%), storage costs, PPC ACoS, and unit net profit.",
+    h1: "Amazon FBA & Net Profit Margin Calculator (2026)",
+    iconName: "ShoppingCart",
+    badge: "Amazon FBA 2026",
+    howToSteps: [
+      "Enter your target Amazon sale price and unit manufacturing cost (COGS).",
+      "Add head-haul freight to Amazon warehouse ($/unit) and packaging costs.",
+      "Select your product category referral rate (e.g. 15% standard) and FBA size tier.",
+      "Input PPC ad spend (ACoS %) and monthly storage duration to view instant net profit, margins, and break-even price."
+    ],
+    features: [
+      "Updated for 2026 Amazon US FBA size tier rate cards (Small Standard to Oversize).",
+      "Accurate referral rate tables (8% electronics to 17% apparel) with $0.30 minimum.",
+      "Q4 Holiday storage surcharge vs standard monthly storage rate calculator.",
+      "Interactive unit profit health score, break-even solver, and 1-click preset loaders."
+    ],
+    faqs: [
+      {
+        question: "How are Amazon FBA fees calculated in 2026?",
+        answer: "Amazon FBA fees primarily consist of: (1) Category Referral Fee (usually 15% of sale price), (2) FBA Fulfillment Fee based on product dimensions and unit weight, (3) Monthly Storage Fee ($0.87/cu.ft standard, $2.40/cu.ft Oct-Dec), plus optional PPC advertising costs."
+      },
+      {
+        question: "What is a healthy net profit margin for Amazon FBA sellers?",
+        answer: "Most successful Amazon private label and wholesale sellers aim for a net profit margin of 15% to 25% after all FBA fees, sourcing, head-haul shipping, and PPC ad spend."
+      }
+    ],
+    formulaDesc: "Net Profit = Sale Price - (COGS + Shipping to FBA + Referral Fee + FBA Fulfillment + Storage + Ad Spend)",
+    locales: {
+      en: {
+        name: "Amazon FBA Calculator 2026",
+        shortDesc: "Calculate accurate Amazon FBA fulfillment fees, category referral rates, storage costs, ACoS, and net profit margins.",
+        badge: "Amazon FBA 2026",
+        h1: "Amazon FBA & Net Profit Margin Calculator (2026)",
+      },
+      es: {
+        name: "Calculadora Amazon FBA 2026",
+        shortDesc: "Calcula tarifas de logística FBA de Amazon, comisiones por categoría, almacenamiento y margen de beneficio neto.",
+        badge: "Amazon FBA 2026",
+        h1: "Calculadora de Tarifas y Margen Neto de Amazon FBA",
+      },
+      pt: {
+        name: "Calculadora Amazon FBA 2026",
+        shortDesc: "Calcule taxas de envio FBA da Amazon, tarifas de referência por categoria, custos de armazenamento e margem de lucro líquido.",
+        badge: "Amazon FBA 2026",
+        h1: "Calculadora de Taxas e Lucro Líquido Amazon FBA",
+      },
+      de: {
+        name: "Amazon FBA Gebührenrechner 2026",
+        shortDesc: "Berechnen Sie exakte Amazon FBA Versandgebühren, Verkaufsprovisionen, Lagergebühren und Reingewinnspannen.",
+        badge: "Amazon FBA 2026",
+        h1: "Amazon FBA Gebühren- & Reingewinn-Rechner",
+      },
+      fr: {
+        name: "Calculateur Amazon FBA 2026",
+        shortDesc: "Calculez les frais d'expédition FBA Amazon, commissions par catégorie, coûts de stockage et marge bénéficiaire nette.",
+        badge: "Amazon FBA 2026",
+        h1: "Calculateur de Frais et Bénéfice Net Amazon FBA",
+      },
+      ja: {
+        name: "Amazon FBA 手数料＆利益計算ツール 2026",
+        shortDesc: "FBA配送代行手数料、カテゴリー別販売手数料（8%〜15%）、月額保管手数料、広告費（ACoS）を考慮したAmazonセラー向け純利益率計算ツール。",
+        badge: "Amazon FBA 2026",
+        h1: "Amazon FBA 販売手数料＆純利益率計算機",
+      },
+      zh: {
+        name: "Amazon 亚马逊 FBA 卖家利润计算器 2026",
+        shortDesc: "计算亚马逊 FBA 配送履约费、类目佣金 (8%~15%)、月度仓储费、广告 ACoS 占比与单件真实净利润率。",
+        badge: "亚马逊 FBA 2026",
+        h1: "Amazon FBA 卖家全项费用与单件净利润率计算器",
+        howToSteps: [
+          "输入亚马逊 Listing 目标销售售价与单件采购成本 (COGS)。",
+          "输入头程空运/海运运费（$/件）与包装质检杂费。",
+          "选择所属商品类目佣金比例与 FBA 尺寸重量分段（小号标准、大号标准、大件）。",
+          "输入广告 ACoS 占比与预估在仓月数，实时查看单件净利润、净利率与保本售价。"
+        ],
+        features: [
+          "严格适配 2026 亚马逊美国站最新 FBA 尺寸阶梯履约费（$3.22 ~ $19.05+）。",
+          "内置 8%~17% 常见品类佣金与单件 $0.30 最低抽成规则。",
+          "支持 Q4 旺季仓储附加费（$2.40/立方英尺）与平时费率一键切换。",
+          "一键载入爆款家居/3C轻小件典型参数，告别繁琐手动计算。"
+        ],
+        faqs: [
+          {
+            question: "2026 年亚马逊 FBA 综合扣费大概是多少？",
+            answer: "以售价 $30 的标准件商品为例，亚马逊佣金约 15% ($4.50)，FBA 履约派送费约 $3.86~$4.85，仓储杂费约 $0.15。综合平台扣费通常占商品售价的 30% ~ 35% 左右。"
+          }
+        ]
+      },
+    },
   }
 ];
 
