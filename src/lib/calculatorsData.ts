@@ -106,30 +106,47 @@ export const CALCULATORS: CalculatorItem[] = [
     categorySlug: "business",
     shortDesc: "Calculate exact Stripe, PayPal, and credit card processing fees for domestic and international sales.",
     primaryKeyword: "Stripe Fee Calculator",
-    secondaryKeywords: ["paypal fee calculator", "credit card processing fee", "stripe fee calculator 2026", "stripe invoice fee"],
-    metaTitle: "Stripe Fee Calculator (2026 Updated) - Exact Net Payout & Domestic/Intl Solver",
-    metaDescription: "Free online Stripe & payment fee calculator (2026). Calculate exact credit card transaction fees, net payout, and reverse invoice amounts.",
-    h1: "Stripe & Payment Processing Fee Calculator (2026)",
+    secondaryKeywords: [
+      "stripe fees calculator",
+      "stripe fee calculator international",
+      "stripe fee calculator 2026",
+      "paypal fee calculator",
+      "stripe invoice fee",
+      "stripe currency conversion fee",
+      "credit card processing fee"
+    ],
+    metaTitle: "Stripe Fee Calculator (2026) - International Cards, Net Payout & Reverse Fee",
+    metaDescription: "Accurate 2026 Stripe Fee Calculator: Compute exact US domestic (2.9% + $0.30), international card fees (+1.5%), currency conversion (+1%), and reverse invoice payouts. 100% free.",
+    h1: "Stripe Fee Calculator (2026 Updated) - Domestic, International & Invoicing",
     iconName: "CreditCard",
-    badge: "Updated for 2026",
+    badge: "Updated for 2026 Rates",
     howToSteps: [
       "Enter the transaction amount you plan to charge your customer.",
-      "Select your region (US, UK, EU, or International) and payment method.",
-      "View the exact processing fee, net payout amount, and how much to charge to receive the full amount."
+      "Select payment gateway type: US Standard, International Card, Currency Conversion, or PayPal.",
+      "View the exact processing fee, net payout amount, and how much to invoice to receive your full target amount."
     ],
     features: [
-      "Supports latest 2026 standard Stripe rates (2.9% + $0.30) and international card fees (+1.5%).",
-      "Reverse calculation: Calculates exactly what to invoice to net your desired target amount.",
+      "Supports latest 2026 standard Stripe rates (2.9% + $0.30), international card surcharge (+1.5%), and currency conversion (+1%).",
+      "Reverse calculation solver: Computes exactly what to invoice so deductions leave you with your target net payout.",
+      "Instant breakdown comparison table between US domestic, international, currency conversion, and PayPal.",
       "100% private in-browser calculation with zero server logging."
     ],
     faqs: [
       {
-        question: "What is the standard Stripe transaction fee?",
-        answer: "For standard US transactions, Stripe charges 2.9% + $0.30 per successful card charge. For international cards, an additional 1.5% fee applies, plus 1% for currency conversion if applicable."
+        question: "What is the standard Stripe transaction fee in 2026?",
+        answer: "For standard US transactions, Stripe charges 2.9% + $0.30 per successful card charge. In the EU and UK, domestic rates are typically 1.5% + €0.25 / £0.20 for standard consumer cards."
       },
       {
-        question: "How do I calculate what to charge a client so I receive a specific net amount?",
-        answer: "Use the formula: Invoice Amount = (Desired Net + Fixed Fee) / (1 - Percentage Rate). Our tool computes this reverse fee automatically."
+        question: "How much extra does Stripe charge for international cards?",
+        answer: "Stripe adds an additional 1.5% fee for payments made with cards issued outside your country. If currency conversion is required (e.g. charging EUR from a USD bank account), another 1% fee applies, bringing the effective percentage rate to 5.4%."
+      },
+      {
+        question: "How do I calculate what to charge a client so I receive an exact net amount?",
+        answer: "Use the reverse calculation formula: Invoice Amount = (Desired Net + Fixed Fee) / (1 - Percentage Rate). For example, to net exactly $100 on a domestic US card, you should invoice $103.30 ($100 + $0.30) / 0.971."
+      },
+      {
+        question: "Does Stripe refund processing fees when I issue a customer refund?",
+        answer: "No, Stripe does not return processing fees when a refund is issued. The original transaction fee is retained by Stripe."
       }
     ],
     formulaDesc: "Fee = (Amount × Percentage Rate) + Fixed Fee | Net = Amount - Fee",
@@ -529,13 +546,19 @@ export const CALCULATORS: CalculatorItem[] = [
     category: "E-Commerce & Stripe",
     categorySlug: "business",
     shortDesc: "Calculate true e-commerce net profit margins factoring in product COGS, ad spend (ROAS), shipping, and payment fees.",
-    primaryKeyword: "Shopify Profit Margin Calculator",
-    secondaryKeywords: ["ecommerce profit calculator", "roas profit calculator", "dropshipping margin calculator", "shopify calculator 2026"],
-    metaTitle: "Shopify Profit Margin & ROAS Calculator 2026 - True Net Profit Solver",
-    metaDescription: "Free 2026 Shopify & e-commerce profit calculator. Deduct COGS, ad spend (ROAS/CPA), shipping, and gateway fees to see true net margins.",
-    h1: "Shopify & E-Commerce Profit Margin Calculator (2026)",
+    primaryKeyword: "Shopify Profit Calculator",
+    secondaryKeywords: [
+      "shopify profit margin calculator",
+      "shopify fees calculator",
+      "dropshipping profit calculator",
+      "shopify roas calculator",
+      "shopify break even calculator 2026"
+    ],
+    metaTitle: "Shopify Profit Calculator (2026) - Net Margin & Break-Even ROAS Solver",
+    metaDescription: "Free 2026 Shopify Profit Calculator: Compute exact net profit margins, COGS, ad spend (CPA/ROAS), shipping, and Shopify Payments transaction fees instantly.",
+    h1: "Shopify Profit Calculator (2026) - Net Margin & ROAS Solver",
     iconName: "ShoppingBag",
-    badge: "E-Commerce",
+    badge: "E-Commerce Profit 2026",
     howToSteps: [
       "Enter your product selling price and Cost of Goods Sold (COGS).",
       "Input your estimated Customer Acquisition Cost (Ad Spend / CPA) and shipping expenses.",
