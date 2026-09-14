@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import { ShieldCheck, Copy, Check, CreditCard, Sparkles, Globe2, ArrowRight, Layers } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -346,6 +347,27 @@ export function StripeFeeCalculator() {
               </tr>
             </tbody>
           </table>
+        </div>
+
+        {/* Specialized In-Depth Landings Internal Linking */}
+        <div className="p-3.5 bg-slate-950/60 rounded-xl border border-slate-800/80 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <span className="text-slate-400 font-medium">Need deep-dive calculations?</span>
+          <div className="flex flex-wrap items-center gap-3">
+            <Link
+              href="/stripe-fee-calculator-international"
+              className="text-blue-400 hover:text-blue-300 font-semibold inline-flex items-center gap-1 transition-colors"
+            >
+              <span>🌍 International Card & FX Calculator</span>
+              <ArrowRight className="w-3 h-3" />
+            </Link>
+            <Link
+              href="/stripe-fee-calculator-reverse-invoice"
+              className="text-indigo-400 hover:text-indigo-300 font-semibold inline-flex items-center gap-1 transition-colors"
+            >
+              <span>🧾 Client Reverse Invoicing Solver</span>
+              <ArrowRight className="w-3 h-3" />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

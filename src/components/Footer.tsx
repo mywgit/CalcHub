@@ -90,6 +90,11 @@ export function Footer() {
                 {isZh ? "Stripe 反向开票倒推计算器" : "Stripe Reverse Fee Calculator"}
               </Link>
             </li>
+            <li>
+              <Link href="/stripe-fee-calculator-international" className="hover:text-blue-400 transition-colors">
+                {isZh ? "Stripe 国际跨境与汇率计算器" : "Stripe International Fee Calculator"}
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

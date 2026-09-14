@@ -263,12 +263,19 @@ export const CALCULATORS: CalculatorItem[] = [
     categorySlug: "creator",
     shortDesc: "Estimate your earnings from the TikTok Creator Rewards Program based on qualified views and RPM.",
     primaryKeyword: "TikTok Money Calculator",
-    secondaryKeywords: ["tiktok creator rewards calculator", "tiktok rpm calculator", "how much tiktok pays", "tiktok money calculator 2026"],
-    metaTitle: "TikTok Money Calculator 2026 - Instant Creator Rewards Earnings Estimator",
-    metaDescription: "Free 2026 TikTok Creator Rewards Program earnings calculator. Calculate payouts based on qualified views, duration, and RPM ($0.40 - $1.35+).",
-    h1: "TikTok Creator Rewards Earnings Calculator (2026)",
+    secondaryKeywords: [
+      "tiktok creator fund calculator",
+      "tiktok creator rewards calculator",
+      "tiktok earnings calculator",
+      "tiktok rpm calculator",
+      "how much tiktok pays",
+      "tiktok money calculator 2026"
+    ],
+    metaTitle: "TikTok Money Calculator 2026 - Creator Fund & Rewards Earnings Estimator",
+    metaDescription: "Free 2026 TikTok Creator Fund & Rewards Program earnings calculator. Accurately estimate video payouts based on qualified views, RPM ($0.40 - $1.35+), and followers.",
+    h1: "TikTok Money Calculator (2026) - Creator Fund & Rewards Earnings",
     iconName: "Video",
-    badge: "Creator Rewards",
+    badge: "Creator Rewards 2026",
     howToSteps: [
       "Input your total video views or monthly expected view count.",
       "Adjust the Qualified Views percentage (typically 40% - 70% of total views).",
@@ -280,6 +287,10 @@ export const CALCULATORS: CalculatorItem[] = [
       "Monthly & Yearly projection breakdown with interactive earnings scale."
     ],
     faqs: [
+      {
+        question: "How does the TikTok Creator Fund differ from the Creator Rewards Program in 2026?",
+        answer: "TikTok replaced the original Creator Fund with the Creator Rewards Program. Payouts are now focused on 1-minute+ videos with much higher RPMs ($0.40 - $1.20+) compared to the old fund ($0.02 - $0.04)."
+      },
       {
         question: "What is a good RPM on the TikTok Creator Rewards Program?",
         answer: "RPM (Revenue Per Mille) on TikTok typically ranges from $0.40 to $1.20+ for US/UK audiences on 1-minute+ videos. Niche topics like finance, tech, and business often see RPMs above $1.00."
@@ -363,10 +374,17 @@ export const CALCULATORS: CalculatorItem[] = [
     categorySlug: "creator",
     shortDesc: "Estimate YouTube AdSense revenue for Long-form Videos and Shorts by views, niche, and audience geography.",
     primaryKeyword: "YouTube Money Calculator",
-    secondaryKeywords: ["youtube shorts revenue calculator", "youtube earnings calculator", "youtube cpm calculator", "youtube money calculator 2026"],
-    metaTitle: "YouTube Money Calculator 2026 - Long-Form & Shorts AdSense Revenue Estimator",
-    metaDescription: "Free online 2026 YouTube money calculator. Accurately model RPM, daily views, niche AdSense rates, and YouTube Shorts payouts.",
-    h1: "YouTube Video & Shorts Revenue Calculator (2026)",
+    secondaryKeywords: [
+      "youtube views to money calculator",
+      "youtube views money calculator",
+      "youtube shorts revenue calculator",
+      "youtube earnings calculator",
+      "youtube cpm calculator",
+      "youtube money calculator 2026"
+    ],
+    metaTitle: "YouTube Views to Money Calculator (2026) - Video & Shorts Revenue",
+    metaDescription: "Free 2026 YouTube views to money calculator. Convert YouTube video and Shorts views into exact AdSense revenue based on niche RPM and geography.",
+    h1: "YouTube Views to Money Calculator (2026) - Videos & Shorts",
     iconName: "PlayCircle",
     badge: "Long-form & Shorts",
     howToSteps: [
