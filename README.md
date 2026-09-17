@@ -37,6 +37,20 @@ Explore the full suite of live calculators directly on [calc.puretoolhub.com](ht
 
 ---
 
+## 🌐 PureToolHub Product Ecosystem
+
+Each utility in the **PureToolHub** family is built on the philosophy of **100% Client-Side Execution, Privacy-First Architecture, and Zero Invasive Ads**:
+
+| Product | Live Production Link | GitHub Repository | Focus Area |
+| :--- | :--- | :--- | :--- |
+| **🛠️ ToolHub** | [puretoolhub.com](https://puretoolhub.com) | [mywgit/ToolHub](https://github.com/mywgit/ToolHub) | In-browser developer utilities (JSON, JWT, Hash, Base64, SQL, Regex) |
+| **💳 CalcHub** | [calc.puretoolhub.com](https://calc.puretoolhub.com) | [mywgit/CalcHub](https://github.com/mywgit/CalcHub) | Financial, Stripe, SaaS MRR, YouTube & TikTok earnings calculators |
+| **🔗 SnapBio** | [snapbio.puretoolhub.com](https://snapbio.puretoolhub.com) | [mywgit/SnapBio](https://github.com/mywgit/SnapBio) | Notion-style link-in-bio page builder with custom domain support |
+| **📄 DocuPure** | [pdf.puretoolhub.com](https://pdf.puretoolhub.com) | [mywgit/DocuPure](https://github.com/mywgit/DocuPure) | 100% private in-browser PDF editor (Merge, Split, Compress, Convert) |
+| **📿 ZenCraft** | [zen.puretoolhub.com](https://zen.puretoolhub.com) | [mywgit/ZenCraft](https://github.com/mywgit/ZenCraft) | 3D interactive spiritual jewelry studio & customized Eastern beads |
+
+---
+
 ## ✨ Key Architectural Features
 
 1. **Zero Server Logging & 100% Privacy**: All mathematical modeling and formulas execute directly in the browser runtime via Web APIs.
