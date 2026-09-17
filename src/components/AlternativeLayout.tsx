@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Check, X, ShieldCheck, Zap, ChevronDown, ChevronUp, Sparkles, ArrowRight } from "lucide-react";
 import { AlternativePageData } from "@/lib/alternativeData";
 import { useLanguage } from "@/context/LanguageContext";
+import { AlternativeDeepGuide } from "@/components/AlternativeDeepGuide";
 
 interface AlternativeLayoutProps {
   data: AlternativePageData;
@@ -135,6 +136,11 @@ export function AlternativeLayout({ data, children }: AlternativeLayoutProps) {
         <section className="bg-gradient-to-br from-slate-900 to-blue-950/20 border border-slate-800 rounded-3xl p-6 sm:p-8 space-y-4">
           <h2 className="text-xl font-bold text-white tracking-tight">{whyTitle}</h2>
           <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">{whyDesc}</p>
+        </section>
+
+        {/* Deep Editorial Guide & Directory Matrix */}
+        <section className="bg-slate-900/50 border border-slate-800/80 rounded-3xl p-6 sm:p-8 space-y-6">
+          <AlternativeDeepGuide slug={data.slug} />
         </section>
 
         {/* FAQ Accordion */}

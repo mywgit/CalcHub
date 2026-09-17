@@ -11,17 +11,7 @@ export const metadata: Metadata = {
   description: "Accurate, fast, and 100% in-browser financial and business calculators for Stripe fees, TikTok creator rewards, YouTube revenue, SaaS MRR, and Shopify margins.",
   metadataBase: new URL("https://calc.puretoolhub.com"),
   alternates: {
-    canonical: "https://calc.puretoolhub.com",
-    languages: {
-      "en-US": "https://calc.puretoolhub.com",
-      "es-ES": "https://calc.puretoolhub.com",
-      "pt-BR": "https://calc.puretoolhub.com",
-      "de-DE": "https://calc.puretoolhub.com",
-      "fr-FR": "https://calc.puretoolhub.com",
-      "ja-JP": "https://calc.puretoolhub.com",
-      "zh-CN": "https://calc.puretoolhub.com",
-      "x-default": "https://calc.puretoolhub.com",
-    },
+    canonical: "/",
   },
   openGraph: {
     title: "CalcHub - Business & Creator Calculators",

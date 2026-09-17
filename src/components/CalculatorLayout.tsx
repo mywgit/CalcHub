@@ -5,6 +5,7 @@ import Link from "next/link";
 import { CalculatorItem, CALCULATORS, getLocalizedCalculator } from "@/lib/calculatorsData";
 import { useLanguage } from "@/context/LanguageContext";
 import { ShieldCheck, ChevronRight, Sparkles, CheckCircle2, HelpCircle } from "lucide-react";
+import { CalculatorDeepGuide } from "@/components/CalculatorDeepGuide";
 
 interface CalculatorLayoutProps {
   calc: CalculatorItem;
@@ -166,6 +167,11 @@ export function CalculatorLayout({ calc: rawCalc, children }: CalculatorLayoutPr
             </ul>
           </div>
         </div>
+
+        {/* Deep Editorial Guide & Industry Benchmarks */}
+        <section className="bg-slate-900/50 border border-slate-800/80 rounded-3xl p-6 sm:p-8 space-y-6">
+          <CalculatorDeepGuide calculatorId={rawCalc.id} />
+        </section>
 
         {/* FAQ Section */}
         {calc.faqs.length > 0 && (
